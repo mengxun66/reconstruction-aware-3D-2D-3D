@@ -32,6 +32,11 @@ reconstruction-aware-3D-2D-3D/
 │   ├── image_domain/
 │   └── morphological_recovery/
 │
+├── models/
+│   ├── low_range_lora_epoch16.safetensors
+│   ├── high_range_lora_epoch20.safetensors
+│   └── model_card.md
+│
 ├── examples/
 │   ├── input_3d_models/
 │   ├── encoded_rgb_images/
