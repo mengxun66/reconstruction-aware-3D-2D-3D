@@ -33,8 +33,7 @@ reconstruction-aware-3D-2D-3D/
 │   └── morphological_recovery/
 │
 ├── models/
-│   ├── low_range_lora_epoch16.safetensors
-│   ├── high_range_lora_epoch20.safetensors
+│   ├── README.md
 │   └── model_card.md
 │
 ├── examples/
