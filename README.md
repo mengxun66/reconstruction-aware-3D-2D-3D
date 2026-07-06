@@ -98,6 +98,9 @@ Case-level metadata are provided using anonymized case identifiers. The released
 
 Original architectural drawings and other copyrighted source materials are not redistributed unless their licenses permit public release.
 ## Software environment
+The workflow was developed using Rhino and Grasshopper. Exact software versions, document units, geometric tolerances, and required Grasshopper plug-ins are documented in:
+`environment/software_versions.md`
+`environment/grasshopper_plugins.md`
 ## Reproducibility
 To reproduce the main workflow:
 
