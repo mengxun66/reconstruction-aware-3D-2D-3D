@@ -73,7 +73,6 @@ Two height-domain-specific representations are used:
 The red, green, and blue channels represent different vertical height strata. The complete forward-encoding definition is provided in:
 
 `grasshopper/forward_rgb_encoding.gh`
-
 ## RGB-to-3D reconstruction
 
 The generated RGB images are decoded channel by channel using the inverse height-mapping equations. The reconstructed channel-specific geometries are then combined to form the complete 3D massing model.
@@ -85,8 +84,31 @@ The complete executable definition is provided in:
 Detailed information on channel thresholds, spatial scaling, geometric tolerances, software versions, and required plug-ins is provided in the corresponding documentation files.
 ## Morphological parameters
 ## Dataset metadata
+Case-level metadata are provided using anonymized case identifiers. The released metadata include, where applicable:
+
+- dataset assignment;
+- building category;
+- source-data type;
+- height domain;
+- layout label;
+- diagnostic-subset assignment;
+- structured prompt;
+- generation seed; and
+- reference morphological parameters.
+
+Original architectural drawings and other copyrighted source materials are not redistributed unless their licenses permit public release.
 ## Software environment
 ## Reproducibility
+To reproduce the main workflow:
+
+open the example 3D massing model in Rhino;
+run the forward RGB-encoding Grasshopper definition;
+generate or load the corresponding RGB height representation;
+run the inverse RGB-decoding definition;
+extract the nine morphological parameters; and
+run the supplied image-domain and morphological-recovery evaluation scripts.
+
+A complete worked example will be provided in the `examples/` directory.
 ## Data availability
 Derived data, prompts, seeds, dataset assignments, evaluation scripts, and Grasshopper definitions are provided in this repository where licensing permits.
 
