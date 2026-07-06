@@ -127,4 +127,3 @@ The license for the released code and Grasshopper definitions will be specified 
 For questions regarding the repository or manuscript, please contact:
 
 Mengxun Liu: mengxunliu@outlook.com
-Zhenyu Li: zhenyuli@tongji.edu.cn
