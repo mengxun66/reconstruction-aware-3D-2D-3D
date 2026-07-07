@@ -1,0 +1,2 @@
+﻿n_matched_cases,som_training_set,projected_set,som_size,n_clusters,som_iterations,seed,mean_bmu_shift,median_bmu_shift,no_bmu_shift_n,no_bmu_shift_pct,same_cluster_n,overall_cluster_retention_pct,macro_cluster_retention_pct,d2_cluster_counts,d3_cluster_counts
+100,D2 only,D3,10x10,5,20000,42,3.4453015565891616,2.8284271247461903,8,8.0,47,47.0,43.84766394596115,32|19|17|10|22,30|18|8|3|41
