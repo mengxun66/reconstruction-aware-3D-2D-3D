@@ -39,7 +39,6 @@ reconstruction-aware-3D-2D-3D/
 ├── examples/
 │   ├── input_3d_models/
 │   ├── encoded_rgb_images/
-│   └── reconstructed_3d_models/
 │
 ├── supplementary/
 │   ├── supplementary_tables/
