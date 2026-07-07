@@ -45,12 +45,16 @@ KID is a set-level metric and does not use case-level image pairing.
 
 ## Outputs
 
+For example, when `--stem "KID_internal_100"` is used, the script produces:
+
 ```text
-<stem>_results.csv
-<stem>_image_manifest.csv
-<stem>_run_metadata.json
-<stem>_bar.png
-<stem>_bar.svg
-<stem>_bar.pdf
+KID_internal_100_results.csv
+KID_internal_100_image_manifest.csv
+KID_internal_100_run_metadata.json
+KID_internal_100_bar.png
+KID_internal_100_bar.svg
+KID_internal_100_bar.pdf
+```
+
 ```
 
