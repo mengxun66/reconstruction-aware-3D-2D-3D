@@ -56,5 +56,3 @@ KID_internal_100_bar.svg
 KID_internal_100_bar.pdf
 ```
 
-```
-
