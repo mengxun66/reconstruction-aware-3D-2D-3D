@@ -41,7 +41,7 @@ reconstruction-aware-3D-2D-3D/
 │   ├── encoded_rgb_images/
 │
 ├── supplementary/
-│   ├── supplementary_tables/
+│   ├── Data_S1_morphological_parameters.xlsx
 │   └── supplementary_figures/
 │
 ├── environment/
