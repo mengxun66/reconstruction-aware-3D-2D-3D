@@ -19,7 +19,7 @@ reconstruction-aware-3D-2D-3D/
 │
 ├── grasshopper/
 │   ├── forward_rgb_encoding.gh
-│   ├── inverse_rgb_decoding.gh
+│   └── inverse_rgb_decoding.gh
 │
 ├── metadata/
 │   ├── dataset_split.csv
@@ -38,15 +38,14 @@ reconstruction-aware-3D-2D-3D/
 │
 ├── examples/
 │   ├── input_3d_models/
-│   ├── encoded_rgb_images/
+│   └── encoded_rgb_images/
 │
 ├── supplementary/
 │   ├── Data_S1_morphological_parameters.xlsx
 │   └── supplementary_figures/
 │
 ├── environment/
-│   ├── software_versions.md
-│   └── grasshopper_plugins.md
+│   └── software_versions.md
 │
 ├── LICENSE
 └── README.md
