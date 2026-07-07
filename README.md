@@ -24,7 +24,7 @@ reconstruction-aware-3D-2D-3D/
 ├── metadata/
 │   ├── dataset_split.csv
 │   ├── case_metadata.csv
-│   ├── case_prompts.csv
+│   ├── all_case_prompts.csv
 │   └── case_generation_seeds.csv
 │
 ├── evaluation/
