@@ -35,22 +35,7 @@ image generation, geometric reconstruction, and quantitative analysis.
 - Rhinoceros: Rhino 7
 - Grasshopper: bundled with Rhino 7
 
-## 4. Image-domain and statistical analysis
-
-- Python: [version]
-- PyTorch: [version]
-- torchvision: [version]
-- diffusers: [version]
-- transformers: [version]
-- clean-fid: [version]
-- NumPy: [version]
-- pandas: [version]
-- SciPy: [version]
-- scikit-learn: [version]
-- matplotlib: [version]
-- DINOv2 model: dinov2_vitl14
-
-## 5. Notes
+## 4. Notes
 
 PyCharm was used only as a code editor and is not required to reproduce
 the analyses.
