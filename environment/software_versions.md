@@ -6,12 +6,9 @@ image generation, geometric reconstruction, and quantitative analysis.
 ## 1. LoRA training
 
 - Base model: Stable Diffusion v1.5
-- Training framework: [name and version]
-- Python: [version]
-- PyTorch: [version]
-- CUDA: [version]
-- xformers: [version]
-- GPU: [model]
+- Training framework: sd-scripts/train_network.py with networks.lora
+- xformers: Enabled
+- GPU: NVIDIA RTX 3080Ti
 - Mixed precision: fp16
 
 ## 2. D3 and D3-ext generation
