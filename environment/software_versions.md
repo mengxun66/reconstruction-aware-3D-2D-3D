@@ -16,7 +16,7 @@ image generation, geometric reconstruction, and quantitative analysis.
 
 ## 2. D3 and D3-ext generation
 
-- Interface: AUTOMATIC1111 Stable Diffusion WebUI v1.10.1
+- Interface: AUTOMATIC1111 Stable Diffusion WebUI v1.7.0
 - Base checkpoint: v1-5-pruned-emaonly
 - Model hash: 6ce0161689
 - Sampler: Euler a
