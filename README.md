@@ -102,7 +102,6 @@ Original architectural drawings and other copyrighted source materials are not r
 ## Software environment
 The workflow was developed using Rhino and Grasshopper. Exact software versions, document units, geometric tolerances, and required Grasshopper plug-ins are documented in:
 `environment/software_versions.md`
-`environment/grasshopper_plugins.md`
 ## Reproducibility
 To reproduce the main workflow:
 
