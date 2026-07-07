@@ -36,6 +36,12 @@ reconstruction-aware-3D-2D-3D/
 │   ├── README.md
 │   └── model_card.md
 │
+├── data/
+│   ├── D2_internal_100/
+│   ├── D3_internal_100/
+│   ├── D2_heldout_40/
+│   └── D3_heldout_40/
+│
 ├── examples/
 │   ├── input_3d_models/
 │   └── encoded_rgb_images/
