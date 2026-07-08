@@ -46,10 +46,6 @@ reconstruction-aware-3D-2D-3D/
 │   ├── input_3d_models/
 │   └── encoded_rgb_images/
 │
-├── supplementary/
-│   ├── Data_S1_morphological_parameters.xlsx
-│   └── supplementary_figures/
-│
 ├── environment/
 │   └── software_versions.md
 │
