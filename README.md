@@ -22,10 +22,9 @@ reconstruction-aware-3D-2D-3D/
 │   └── inverse_rgb_decoding.gh
 │
 ├── metadata/
-│   ├── dataset_split.csv
-│   ├── case_metadata.csv
-│   ├── all_case_prompts.xlsx
-│   └── generation_seeds_main100_heldout40.xlsx
+│   ├── Data S1_140_case_metadata.xlsx
+│   ├── Data S2_140_case_morphological_parameters.xlsx
+│   └── Data S3_140_case prompts and generation seeds.xlsx
 │
 ├── evaluation/
 │   ├── checkpoint_diagnostics/
