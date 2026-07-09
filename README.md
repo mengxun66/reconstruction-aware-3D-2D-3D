@@ -1,4 +1,4 @@
-# Reconstruction-Aware 3D–2D–3D Workflow for Building Massing Design
+# Reconstruction-Based 3D–2D–3D Workflow for Building Generation
 
 This repository provides reproducibility materials for the manuscript:
 
