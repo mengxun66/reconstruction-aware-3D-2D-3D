@@ -1,4 +1,4 @@
-# Reconstruction-Based 3D–2D–3D Workflow for Building Form Generation and Parameter Recovery
+# Reconstruction-Based 3D–2D–3D Workflow for Building Generation and Parameter Recovery
 
 This repository provides reproducibility materials for the manuscript:
 
