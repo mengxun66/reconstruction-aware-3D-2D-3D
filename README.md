@@ -2,7 +2,7 @@
 
 This repository provides reproducibility materials for the manuscript:
 
-**From Visual Plausibility to Measurable Form: A 3D–2D–3D Reconstruction-Aware Diffusion Workflow for Building Massing Design**
+**Integrating Diffusion-Based Building Form Generation with Parameter Recovery: A Reconstruction-Based 3D–2D–3D Workflow**
 
 The study develops a reconstruction-aware workflow that connects:
 
