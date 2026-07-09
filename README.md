@@ -1,12 +1,12 @@
-# Reconstruction-Based 3D–2D–3D Workflow for Building Generation
+# Reconstruction-Based 3D–2D–3D Workflow for Building Form Generation and Parameter Recovery
 
 This repository provides reproducibility materials for the manuscript:
 
 **Integrating Diffusion-Based Building Form Generation with Parameter Recovery: A Reconstruction-Based 3D–2D–3D Workflow**
 
-The study develops a reconstruction-aware workflow that connects:
+The study develops a reconstruction-based workflow that connects:
 
-1. simplified 3D building-massing models;
+1. simplified 3D building-form models;
 2. stratified RGB height representations;
 3. LoRA-adapted Stable Diffusion generation;
 4. RGB-to-3D inverse reconstruction; and
@@ -15,7 +15,7 @@ The study develops a reconstruction-aware workflow that connects:
 ## Repository contents
 
 ```text
-reconstruction-aware-3D-2D-3D/
+reconstruction-based-3d-2d-3d/
 │
 ├── grasshopper/
 │   ├── forward_rgb_encoding.gh
@@ -57,13 +57,12 @@ The repository may be updated as the manuscript and supplementary materials are 
 
 The computational workflow contains four connected datasets:
 
-- **D1:** morphological parameters extracted from the original 3D massing models;
-- **D2:** stratified RGB height representations encoded from the original models;
-- **D3:** RGB height representations generated using LoRA-adapted Stable Diffusion;
-- **D4:** morphological parameters extracted after RGB-to-3D inverse reconstruction.
+D1: morphological parameters extracted from the original 3D building-form models;
+D2: stratified RGB height representations encoded from the original 3D models;
+D3: RGB height representations generated using LoRA-adapted Stable Diffusion;
+D4: morphological parameters extracted after RGB-to-3D inverse reconstruction.
 
 The main development set contains 100 cases, including 52 low-rise and 48 high-rise cases. A separate 40-case held-out set is used after model and checkpoint selection.
-
 ## RGB height encoding
 
 Two height-domain-specific representations are used:
@@ -78,7 +77,7 @@ The red, green, and blue channels represent different vertical height strata. Th
 `grasshopper/forward_rgb_encoding.gh`
 ## RGB-to-3D reconstruction
 
-The generated RGB images are decoded channel by channel using the inverse height-mapping equations. The reconstructed channel-specific geometries are then combined to form the complete 3D massing model.
+The generated RGB images are decoded channel by channel using the inverse height-mapping equations. The reconstructed channel-specific geometries are then combined to form the complete 3D building-form model.
 
 The complete executable definition is provided in:
 
@@ -106,22 +105,21 @@ The workflow was developed using Rhino and Grasshopper. Exact software versions,
 ## Reproducibility
 To reproduce the main workflow:
 
-open the example 3D massing model in Rhino;
+open an example 3D building-form model in Rhino;
 run the forward RGB-encoding Grasshopper definition;
 generate or load the corresponding RGB height representation;
 run the inverse RGB-decoding definition;
 extract the nine morphological parameters; and
 run the supplied image-domain and morphological-recovery evaluation scripts.
 
-A complete worked example will be provided in the `examples/` directory.
+A complete worked example is provided in the `examples/ directory` where licensing permits.
 ## Data availability
 Derived data, prompts, seeds, dataset assignments, evaluation scripts, and Grasshopper definitions are provided in this repository where licensing permits.
 
 Materials that cannot be publicly redistributed because of copyright or third-party restrictions may be made available by the corresponding author upon reasonable request.
 ## Citation
 Liu, M., Zheng, H., Huang, Z., Tan, B., Zhu, Y., and Li, Z.
-From Visual Plausibility to Measurable Form:
-A 3D–2D–3D Reconstruction-Aware Diffusion Workflow for Building Massing Design.
+Integrating Diffusion-Based Building Form Generation with Parameter Recovery: A Reconstruction-Based 3D–2D–3D Workflow.
 Manuscript in preparation.
 ## License
 The license for the released code and Grasshopper definitions will be specified in the LICENSE file. Third-party software, pretrained models, source images, and architectural drawings remain subject to their original licenses.
